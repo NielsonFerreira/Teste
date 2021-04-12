@@ -24,12 +24,12 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 ## 🚀 Como executar o projeto
 
-Podemos considerar este projeto como sendo divido em três partes:
-1. Back End (pasta server) 
-2. Front End (pasta web)
-3. Mobile (pasta mobile)
+Usando o Prompt de Comando, entrar em "..\Desafio-celula-financeiro-e-controladoria\target" e executar o comando:
 
-💡Tanto o Front End quanto o Mobile precisam que o Back End esteja sendo executado para funcionar.
+```bash
+java -jar Desafio-celula-financeiro-e-controladoria-0.0.1-SNAPSHOT.jar
+```
+E esperar a aplicação subir em http://localhost:8080.
 
 ### Pré-requisitos
 
@@ -39,24 +39,7 @@ Além disto é bom ter um editor para trabalhar com o código como [VSCode][vsco
 
 ### 🎲 Rodando o Back End (servidor)
 
-```bash
-# Clone este repositório
-$ git clone https://github.com/tgmarinho/nlw1
 
-# Acesse a pasta do projeto no terminal/cmd
-$ cd nlw1
-
-# Vá para a pasta server
-$ cd server
-
-# Instale as dependências
-$ npm install
-
-# Execute a aplicação em modo de desenvolvimento
-$ npm run dev:server
-
-# O servidor inciará na porta:3333 - acesse http://localhost:3333 
-```
 
 ### 🧭 Rodando a aplicação web (Front End)
 
