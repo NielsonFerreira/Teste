@@ -33,8 +33,7 @@ E esperar a aplicação subir em http://localhost:8080.
 
 ## ⚙️ Endpoints
 
-Os endpoints podem ser consultados no link da documentação abaixo.
-https://documenter.getpostman.com/view/7857036/TzJoE1Bn
+Os endpoints podem ser consultados no link da documentação :point_right: https://documenter.getpostman.com/view/7857036/TzJoE1Bn
 
 ### 📱Rodando a aplicação mobile 
 
