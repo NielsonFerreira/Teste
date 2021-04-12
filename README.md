@@ -10,10 +10,16 @@ API REST para controlar receitas e despesas de clientes sejam eles pessoas físi
 As seguintes ferramentas foram usadas na construção do projeto:
 
 - <a href="https://spring.io/projects/spring-boot">Spring Boot</a>
-- [Node.js][nodejs]
-- [React][reactjs]
-- [React Native][rn]
-- [TypeScript][typescript]
+- <a href="https://docs.spring.io/spring-boot/docs/current/reference/html/using-spring-boot.html#using-boot-devtools">DevTools</a>
+- <a href="https://maven.apache.org">Maven</a>
+- <a href="https://hibernate.org">Hibernate</a>
+- <a href="https://www.h2database.com/html/main.html">H2 Database</a>
+- <a href="https://docs.jboss.org/hibernate/orm/5.4/topical/html_single/metamodelgen/MetamodelGenerator.html">JPA Metamodel</a>
+- <a href="https://www.oracle.com/index.html">Oracle Database 11g Express Edition</a>
+- <a href="https://junit.org/junit5/">Junit</a>
+- <a href="https://commons.apache.org/proper/commons-lang/">Apache Commons Lang</a>
+- <a href="https://junit.org/junit5/">Postman</a>
+- <a href="https://www.google.com/intl/pt-BR/chrome/">Google Chrome</a>
 
 
 ## 🚀 Como executar o projeto
