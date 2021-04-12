@@ -65,7 +65,7 @@ spring.datasource.username=SYSTEM
 spring.datasource.password=12345678
 ```
 
-- ## IMPORTANTE! ##
+- IMPORTANTE!!!
 Após executar a aplicação em perfil "prod" pela primeira vez, em "application-prod.properties", mudar a configuração abaixo para "update".
 ```bash
 spring.jpa.hibernate.ddl-auto=create
@@ -75,6 +75,11 @@ spring.jpa.hibernate.ddl-auto=create
 Os endpoints podem ser consultados no link da documentação :point_right: https://documenter.getpostman.com/view/7857036/TzJoE1Bn
 
 ## 📋 Informações Extras
-Durante o desenvolvimento foi utilizado alguns padrões como "Observer", "Injeção de Dependências"
+Durante o desenvolvimento foi utilizado alguns padrões como "Observer", "Dependency Injection" e "Repository". 
+Também foi dada atenção ao uso dos verbos HTTP e aos códigos de respostas.
+
+## 🎁 Comentários Finais
+Esse projeto não está 100% fiel ao que foi solicitado no desafio, mas o que foi feito aqui foi feito com o máximo de dedicação e empenho.
+Desde já, agradeço a MV pela confiança e pela oportunidade.
 
 
