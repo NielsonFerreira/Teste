@@ -31,38 +31,50 @@ java -jar Desafio-celula-financeiro-e-controladoria-0.0.1-SNAPSHOT.jar
 ```
 E esperar a aplicação subir em http://localhost:8080.
 
+A aplicação possui dois perfis:
+- dev: (desenvolvimento) Onde é utilizado o banco de dados H2. E mais algumas configurações para auxiliar no desenvolvimento.
+- prod: (produção) Onde é utilizado o banco de dados Oracle Express 11g.
+
+Para alternar entre os ambientes, basta adicionar um dos comandos abaixo junto ao comando anterior. Por padrão, o perfil é "dev".
+- Perfil "dev":
+```bash
+--spring.profiles.active=dev
+```
+
+- Perfil "prod":
+```bash
+--spring.profiles.active=prod
+```
+
+A seguir as configurações dos respectivos bancos de dados.
+- H2
+```bash
+spring.h2.console.enabled=true
+spring.h2.console.path=/h2-console
+
+spring.datasource.url=jdbc:h2:file:~/test
+spring.datasource.username=sa
+spring.datasource.password=
+spring.datasource.driver-class-name=org.h2.Driver
+```
+
+- Oracle
+```bash
+spring.datasource.url=jdbc:oracle:thin:@localhost:1521:xe
+spring.datasource.username=SYSTEM
+spring.datasource.password=12345678
+```
+
+- ## IMPORTANTE! ##
+Após executar a aplicação em perfil "prod" pela primeira vez, em "application-prod.properties", mudar a configuração abaixo para "update".
+```bash
+spring.jpa.hibernate.ddl-auto=create
+```
 ## ⚙️ Endpoints
 
 Os endpoints podem ser consultados no link da documentação :point_right: https://documenter.getpostman.com/view/7857036/TzJoE1Bn
 
-### 📱Rodando a aplicação mobile 
-
-🚧 Em construção... 🚧
-
-## 😯 Como contribuir para o projeto
-
-1. Faça um **fork** do projeto.
-2. Crie uma nova branch com as suas alterações: `git checkout -b my-feature`
-3. Salve as alterações e crie uma mensagem de commit contando o que você fez: `git commit -m "feature: My new feature"`
-4. Envie as suas alterações: `git push origin my-feature`
-> Caso tenha alguma dúvida confira este [guia de como contribuir no GitHub](https://github.com/firstcontributions/first-contributions)
+## 📋 Informações Extras
+Durante o desenvolvimento foi utilizado alguns padrões como "Observer", "Injeção de Dependências"
 
 
-## 📝 Licença
-
-Este projeto esta sobe a licença MIT.
-
-Feito com ❤️ por Thiago Marinho 👋🏽 [Entre em contato!](https://www.linkedin.com/in/tgmarinho/)
-
-[nodejs]: https://nodejs.org/
-[typescript]: https://www.typescriptlang.org/
-[expo]: https://expo.io/
-[reactjs]: https://reactjs.org
-[rn]: https://facebook.github.io/react-native/
-[yarn]: https://yarnpkg.com/
-[vscode]: https://code.visualstudio.com/
-[vceditconfig]: https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig
-[license]: https://opensource.org/licenses/MIT
-[vceslint]: https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
-[prettier]: https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
-[rs]: https://rocketseat.com.br
