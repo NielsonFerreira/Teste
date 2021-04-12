@@ -78,6 +78,8 @@ Os endpoints podem ser consultados no link da documentação :point_right: https
 Durante o desenvolvimento foi utilizado alguns padrões como "Observer", "Dependency Injection" e "Repository". 
 Também foi dada atenção ao uso dos verbos HTTP e aos códigos de respostas.
 
+- Por enquanto, não foi possível a criação do PL/SQL, por esse motivo a migração inicial de dados é feita através do SQL padrão.
+
 ## 🎁 Comentários Finais
 Esse projeto não está 100% fiel ao que foi solicitado no desafio, mas o que foi feito aqui foi feito com o máximo de dedicação e empenho.
 Desde já, agradeço a MV pela confiança e pela oportunidade.
