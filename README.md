@@ -31,36 +31,10 @@ java -jar Desafio-celula-financeiro-e-controladoria-0.0.1-SNAPSHOT.jar
 ```
 E esperar a aplicação subir em http://localhost:8080.
 
-### Pré-requisitos
+## ⚙️ Endpoints
 
-Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
-[Git](https://git-scm.com), [Node.js][nodejs]. 
-Além disto é bom ter um editor para trabalhar com o código como [VSCode][vscode]
-
-### 🎲 Rodando o Back End (servidor)
-
-
-
-### 🧭 Rodando a aplicação web (Front End)
-
-```bash
-# Clone este repositório
-$ git clone https://github.com/tgmarinho/nlw1
-
-# Acesse a pasta do projeto no seu terminal/cmd
-$ cd nlw1
-
-# Vá para a pasta da aplicação Front End
-$ cd web
-
-# Instale as dependências
-$ npm install
-
-# Execute a aplicação em modo de desenvolvimento
-$ npm run start
-
-# A aplicação será aberta na porta:3000 - acesse http://localhost:3000
-```
+Os endpoints podem ser consultados no link da documentação abaixo.
+https://documenter.getpostman.com/view/7857036/TzJoE1Bn
 
 ### 📱Rodando a aplicação mobile 
 
